@@ -86,8 +86,8 @@ export class Payment {
   @JsonProperty('Status', Number, true)
   public status: number = undefined;
 
-  @JsonProperty('Links', [Object], true)
-  public links: Object[] = undefined;
+  @JsonProperty('Links', [Any], true)
+  public links: any[] = undefined;
 
   @JsonProperty('ExtraDataCollection', [Object], true)
   public extraDataCollection: Object[] = undefined;
@@ -127,7 +127,7 @@ export class Payment {
   @JsonProperty('AuthenticationUrl', String, true)
   public authenticationUrl: string = undefined;
 
-  constructor(amount: number, installments: number) {
+  constructor(amount: number, installments: number = 1) {
     this.amount = amount;
     this.installments = installments;
   }

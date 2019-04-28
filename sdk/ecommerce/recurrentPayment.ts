@@ -1,41 +1,64 @@
+import { JsonProperty, JsonObject, Any } from 'json2typescript';
 import { Currency } from './currency';
 import { PaymentInterval } from './paymentInterval';
 import { Provider } from './provider';
 
+@JsonObject('RecurrentPayment')
 export class RecurrentPayment {
-  public recurrentPaymentId: string;
+  @JsonProperty('RecurrentPaymentId', String, true)
+  public recurrentPaymentId: string = undefined;
 
-  public nextRecurrency: string;
+  @JsonProperty('NextRecurrency', String, true)
+  public nextRecurrency: string = undefined;
 
-  public startDate: string;
+  @JsonProperty('StartDate', String, true)
+  public startDate: string = undefined;
 
-  public endDate: string;
+  @JsonProperty('EndDate', String, true)
+  public endDate: string = undefined;
 
-  public interval: PaymentInterval;
+  @JsonProperty('Interval', Any, true)
+  public interval: PaymentInterval = undefined;
 
-  public amount: number;
+  @JsonProperty('Amount', Number, true)
+  public amount: number = undefined;
 
-  public country: string;
+  @JsonProperty('Country', String, true)
+  public country: string = undefined;
 
-  public createDate: string;
+  @JsonProperty('CreateDate', String, true)
+  public createDate: string = undefined;
 
-  public currency: Currency;
+  @JsonProperty('Currency', Currency, true)
+  public currency: Currency = undefined;
 
-  public currentRecurrencyTry: number;
+  @JsonProperty('CurrentRecurrencyTry', Number, true)
+  public currentRecurrencyTry: number = undefined;
 
-  public provider: Provider;
+  @JsonProperty('Provider', Provider, true)
+  public provider: Provider = undefined;
 
-  public recurrencyDay: number;
+  @JsonProperty('RecurrencyDay', Number, true)
+  public recurrencyDay: number = undefined;
 
-  public successfulRecurrences: number;
+  @JsonProperty('SuccessfulRecurrences', Number, true)
+  public successfulRecurrences: number = undefined;
 
-  public authorizeNow: boolean;
+  @JsonProperty('AuthorizeNow', Boolean, true)
+  public authorizeNow: boolean = undefined;
 
-  public reasonCode: number;
+  @JsonProperty('ReasonCode', Number, true)
+  public reasonCode: number = undefined;
 
-  public reasonMessage: string;
+  @JsonProperty('ReasonMessage', String, true)
+  public reasonMessage: string = undefined;
 
-  public status: number;
+  @JsonProperty('Status', String, true)
+  public status: number = undefined;
 
-  public links: Object[];
+  @JsonProperty('Links', [Any], true)
+  public links: any[] = undefined;
+
+  @JsonProperty('RecurrentTransactions', [Any], true)
+  public recurrentTransaction: any = undefined;
 }

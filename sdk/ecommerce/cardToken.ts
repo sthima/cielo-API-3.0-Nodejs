@@ -1,4 +1,4 @@
-import { JsonObject, JsonProperty } from 'json2typescript';
+import { JsonObject, JsonProperty, Any } from 'json2typescript';
 
 @JsonObject('CardToken')
 export class CardToken {
@@ -18,8 +18,8 @@ export class CardToken {
   @JsonProperty('ExpirationDate', String, true)
   public expirationDate: string = undefined;
 
-  @JsonProperty('Links', [Object], true)
-  public links: Object[] = undefined;
+  @JsonProperty('Links', [Any], true)
+  public links: any[] = undefined;
 
   @JsonProperty('Holder', String, true)
   public holder: string = undefined;

@@ -5,3 +5,5 @@ export { Payment } from './ecommerce';
 export { CieloEcommerce } from './ecommerce';
 export { CreditCard } from './ecommerce';
 export { CardBrands } from './ecommerce';
+export { Customer } from './ecommerce';
+export { CardToken } from './ecommerce';
