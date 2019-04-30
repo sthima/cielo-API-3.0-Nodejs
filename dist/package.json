@@ -12,7 +12,6 @@
   "author": "Willian Gaspar",
   "license": "ISC",
   "dependencies": {
-    "json2typescript": "^1.2.0",
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "uuid": "^3.3.2"
@@ -22,6 +21,7 @@
     "@types/request": "^2.48.1",
     "@types/request-promise": "^4.1.43",
     "@types/uuid": "^3.4.4",
+    "json2typescript": "^1.2.0",
     "ts-node": "^8.1.0",
     "typescript": "^3.4.5"
   }
