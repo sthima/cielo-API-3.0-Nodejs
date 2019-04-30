@@ -5,6 +5,7 @@
     "outDir": "./dist",
     "moduleResolution": "node",
     "sourceMap": true,
+    "declaration": true,
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
     "allowSyntheticDefaultImports": true
