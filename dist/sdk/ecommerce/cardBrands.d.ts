@@ -1,9 +1,9 @@
 export declare enum CardBrands {
     'Visa' = "Visa",
-    'Master Card' = "Master Card",
-    'American Express' = "American Express",
+    'Master' = "Master",
+    'Amex' = "Amex",
     'Elo' = "Elo",
-    'Diners Club' = "Diners Club",
+    'Diners' = "Diners",
     'Discover' = "Discover",
     'JCB' = "JCB",
     'Aura' = "Aura",
