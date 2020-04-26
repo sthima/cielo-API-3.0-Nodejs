@@ -1,0 +1,21 @@
+{
+  "name": "cielo-api-3.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Willian Gaspar",
+  "license": "ISC",
+  "peerDependencies": {
+    "json2typescript": "^1.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "uuid": "^3.3.2"
+  },
+
+  "dependencies": {
+    "json2typescript": "^1.2.0",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "uuid": "^3.3.2"
+  }
+}
