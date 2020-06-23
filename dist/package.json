@@ -1,6 +1,6 @@
 {
   "name": "cielo-api-3.0",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/sthima/cielo-API-3.0-Nodejs"

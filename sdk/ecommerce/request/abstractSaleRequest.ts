@@ -28,7 +28,7 @@ export abstract class AbstractSaleRequest<Request, Response> {
       const result = await httpRequest(request);
       return result;
     } catch (err) {
-      throw err.error[0];
+      throw err.error[0] || err.error;
     }
   }
 }
