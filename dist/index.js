@@ -18,4 +18,6 @@ var sdk_8 = require("./sdk");
 exports.Customer = sdk_8.Customer;
 var sdk_9 = require("./sdk");
 exports.CardToken = sdk_9.CardToken;
+var sdk_10 = require("./sdk");
+exports.PaymentType = sdk_10.PaymentType;
 //# sourceMappingURL=index.js.map

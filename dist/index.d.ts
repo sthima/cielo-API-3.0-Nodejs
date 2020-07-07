@@ -7,3 +7,4 @@ export { CreditCard } from './sdk';
 export { CardBrands } from './sdk';
 export { Customer } from './sdk';
 export { CardToken } from './sdk';
+export { PaymentType } from './sdk';

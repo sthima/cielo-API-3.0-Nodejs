@@ -1,7 +1,7 @@
 {
   "name": "@sthima/cielo-api-3.0",
   "private": false,
-  "version": "1.0.3",
+  "version": "1.0.4",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/sthima/cielo-API-3.0-Nodejs"
