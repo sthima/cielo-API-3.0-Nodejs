@@ -1,6 +1,7 @@
 {
-  "name": "cielo-api-3.0",
-  "version": "1.0.2",
+  "name": "@sthima/cielo-api-3.0",
+  "private": false,
+  "version": "1.0.3",
   "repository": {
     "type" : "git",
     "url" : "https://github.com/sthima/cielo-API-3.0-Nodejs"
@@ -21,5 +22,9 @@
     "request": "^2.88.0",
     "request-promise": "^4.2.4",
     "uuid": "^3.3.2"
+  },
+
+  "publishConfig": {
+    "access": "public"
   }
 }

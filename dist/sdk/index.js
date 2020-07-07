@@ -18,4 +18,6 @@ var ecommerce_7 = require("./ecommerce");
 exports.Customer = ecommerce_7.Customer;
 var ecommerce_8 = require("./ecommerce");
 exports.CardToken = ecommerce_8.CardToken;
+var paymentType_1 = require("./ecommerce/paymentType");
+exports.PaymentType = paymentType_1.PaymentType;
 //# sourceMappingURL=index.js.map
